@@ -16,10 +16,10 @@ Fonts are separated by a | */
   --paragraph-font: 'Rajdhani', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #F90093;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-white: #132730; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #C2AC38; /* paragraph text on a colored background */ 
   --paragraph-background-color: #132730  ;
   --nav-link-color: #132730;
   --nav-background-color: #D4AC0D;
