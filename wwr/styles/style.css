@@ -226,3 +226,34 @@ main section img {
         margin-top: 25px;
     }
 }
+
+/* Rivers sup-page specific rules */
+
+.river-content {
+    padding: 10px;
+    color: white;
+    background-color: #5465FF;
+    border: 10px solid #5465FF;
+    border: 10px solid #d9c2a3;
+}
+
+.river-grid-a {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    padding: 35px;
+    place-items: center;
+}
+
+.river-grid-b {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    padding: 35px;
+    place-items: center;
+}
+
+.river-img {
+    border: 10px solid #5465FF;
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px black;
+}
+
