@@ -5,15 +5,20 @@
     margin: 0 auto;
 }
 nav {
+   
     display: flex;
     justify-content: space-around;
     place-items: center;
 }
 nav a {
+    color: #132730;
     text-align: center;
-    color: white;
     text-decoration: none;
     padding: 35px;
+}
+
+nav a:hover {
+    color: #C2AC38;
 }
 
 main section {
@@ -34,10 +39,6 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     
-}
-nav a:hover {
-    background-color: #C2AC38;
-    color: white;
 }
 
 h2{
@@ -193,3 +194,22 @@ footer p a:hover{
 #main-content {
     padding-top:3em;
 }
+
+.btn {
+    border: 2px solid black;
+    background-color: #C2AC38;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .default {
+    border-color: #e7e7e7;
+    color: white;
+  }
+  
+  .default:hover {
+    background: #132730;
+    color: white;
+  }
