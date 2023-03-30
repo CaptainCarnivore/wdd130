@@ -149,7 +149,7 @@ footer p a:hover{
 .left-box-img {
     grid-column: 1/3;
     grid-row: 2;
-    order: 2;
+    order: 3;
 }
 .left-box-content {
     padding-left: 100px;
