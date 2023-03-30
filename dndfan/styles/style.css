@@ -92,18 +92,18 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
-#text-with-title-box{
+.text-with-title-box{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     padding: 30px;
     
 }
-#box-header{
+.box-header{
     grid-column: 2/3;
     background-color: #132730;
     color: #C2AC38;
 }
-#box-content{
+.box-content{
     grid-column: 2;
     grid-row: 2;
     background-color: #132730;
@@ -135,12 +135,12 @@ footer p a:hover{
     grid-column-start: 3;
     grid-column-end: span 3;
 }
-#text-title-img-insert-left-box {
+.text-title-img-insert-left-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 30% 70%;
 }
-#left-box-header {
+.left-box-header {
     grid-column: 3/5;
     grid-row: 1/2;
     background-color: #132730;
@@ -151,7 +151,7 @@ footer p a:hover{
     grid-row: 2;
     order: 2;
 }
-#left-box-content {
+.left-box-content {
     padding-left: 100px;
     padding-top:3em;
     padding-right: 100px;
@@ -162,23 +162,23 @@ footer p a:hover{
     grid-row: 2;
     order: 1;
 }
-#text-title-img-insert-right-box {
+.text-title-img-insert-right-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 30% 70%;
 }
-#right-box-header {
+.right-box-header {
     grid-column: 3/5;
     grid-row: 1/2;
     background-color: #132730;
     color: #C2AC38;
 }
-#right-box-img {
+.right-box-img {
     grid-column: 5/7;
     grid-row: 2;
     order: 2;
 }
-#right-box-content {
+.right-box-content {
     padding-left: 100px;
     padding-top:3em;
     padding-right: 100px;
