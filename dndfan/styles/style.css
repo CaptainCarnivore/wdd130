@@ -146,7 +146,7 @@ footer p a:hover{
     background-color: #132730;
     color: #C2AC38;
 }
-#left-box-img {
+.left-box-img {
     grid-column: 1/3;
     grid-row: 2;
     order: 2;
